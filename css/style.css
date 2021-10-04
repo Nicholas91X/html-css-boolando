@@ -7,6 +7,7 @@
 
 /* main */
 .main-container {
+    height: 1000px;
     width: 80%;
     margin: auto;
     margin-top: 20px;
@@ -53,21 +54,49 @@
     position: absolute;
     bottom: 13%;
 }
-.discount {
-    width: 12%;
-    background-color: red;
+.discount-commons {
     font-size: 12px;
+    font-weight: bold;
     color: white;
     text-align: center;
     display: inline-block;
-    padding: 5px;
+    padding: 3px;
+}
+
+.discount {
+    background-color: red;
+}
+
+.sostenibilità {
+    background-color: darkgreen;
+}
+
+.info-prodotto {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.info-prodotto h3:nth-child(2) {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.info-prodotto h3 span:first-child {
+    color: red;
+}
+
+.info-prodotto h3 span:nth-child(2) {
+    text-decoration: line-through;
 }
 
 /* debug */
-.main-container.debug {
-    height: 1000px;
+/* .main-container.debug {
     background-color: lightgrey;
-}
+} */
 
 /* .first-row.debug {
     background-color: lightpink;
@@ -89,6 +118,6 @@
     background-color: green;
 } */
 
-.discount-bar.debug {
+/* .discount-bar.debug {
     background-color: yellow;
-}
+} */
