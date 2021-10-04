@@ -4,3 +4,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* main */
+.main-container {
+    width: 80%;
+    margin: auto;
+}
+
+/* debug */
+.main-container.debug {
+    height: 500px;
+    background-color: lightgrey;
+}
