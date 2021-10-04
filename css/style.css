@@ -9,10 +9,53 @@
 .main-container {
     width: 80%;
     margin: auto;
+    margin-top: 20px;
+}
+
+.first-row,
+.second-row {
+    width: 100%;
+    height: 50%;
+}
+
+.card {
+    width: calc(100% / 3 - 24px);
+    height: calc(100% - 20px);
+    display: inline-block;
+    margin: 0px 10px 20px;
+    position: relative;
+} 
+
+.image {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
 }
 
 /* debug */
 .main-container.debug {
-    height: 500px;
+    height: 1000px;
     background-color: lightgrey;
+}
+
+/* .first-row.debug {
+    background-color: lightpink;
+}
+
+.second-row.debug {
+    background-color: lightgreen;
+} */
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
 }
