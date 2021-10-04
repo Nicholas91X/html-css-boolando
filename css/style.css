@@ -7,7 +7,6 @@
 
 /* main */
 .main-container {
-    height: 1000px;
     width: 80%;
     margin: auto;
     margin-top: 20px;
@@ -16,12 +15,11 @@
 .first-row,
 .second-row {
     width: 100%;
-    height: 50%;
 }
 
 .card {
     width: calc(100% / 3 - 24px);
-    height: calc(100% - 20px);
+    height: 480px;
     display: inline-block;
     margin: 0px 10px 20px;
     position: relative;
@@ -81,7 +79,7 @@ img:hover + .img-hover {
 
 .info-prodotto {
     width: 100%;
-    height: 10%;
+    height: 50px;
     position: absolute;
     bottom: 0;
     font-size: 10px;
